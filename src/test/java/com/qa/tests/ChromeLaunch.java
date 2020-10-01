@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;  
   
 public class ChromeLaunch {  
-  
+	@Test
     public static void main(String[] args) {  
       
            // System Property for Chrome Driver   
@@ -13,7 +13,8 @@ public class ChromeLaunch {
              // Instantiate a ChromeDriver class.     
         WebDriver driver=new ChromeDriver();  
           
-           // Launch Website  
+           // Launch Website 
+		system.out.println("Launching website");
         driver.navigate().to("http://www.javatpoint.com/");  
           
          //Maximize the browser  
