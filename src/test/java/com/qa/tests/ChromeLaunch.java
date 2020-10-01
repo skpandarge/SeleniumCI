@@ -13,7 +13,7 @@ public class ChromeLaunch {
 		public void launchcrome() {	
         try {
            // System Property for Chrome Driver   
-        System.setProperty("webdriver.chrome.driver", "C:\\SHIV\\Backup\\Selenium\\software\\chromedriver_win32\\chromedriver.exe");  
+        System.setProperty("webdriver.chrome.driver", "C:\\SHIV\\Backup\\Selenium\\software\\chromedriver_v85\\chromedriver.exe");  
           
              // Instantiate a ChromeDriver class.     
         WebDriver driver=new ChromeDriver();  
