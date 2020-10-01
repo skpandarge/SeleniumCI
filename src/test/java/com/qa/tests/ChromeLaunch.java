@@ -1,3 +1,4 @@
+package com.qa.tests;
 import org.openqa.selenium.By;  
 import org.openqa.selenium.JavascriptExecutor;  
 import org.openqa.selenium.WebDriver;  
@@ -12,7 +13,7 @@ public class ChromeLaunch {
 		public void launchcrome() {	
         try {
            // System Property for Chrome Driver   
-        System.setProperty("webdriver.chrome.driver", "C:\\SHIV\\Backup\\Selenium\\software\\selenium-server-standalone-3.141.59.jar");  
+        System.setProperty("webdriver.chrome.driver", "C:\\SHIV\\Backup\\Selenium\\software\\chromedriver_win32\\chromedriver.exe");  
           
              // Instantiate a ChromeDriver class.     
         WebDriver driver=new ChromeDriver();  
