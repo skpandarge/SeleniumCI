@@ -31,8 +31,11 @@ public class ChromeLaunch {
          // Click on the Search button  
         driver.findElement(By.linkText("Core Java")).click();     
   
-    }  
+        }  
+	
        catch(Exception e)
-        {System.out.println("the exception is "+e.getMessage());}
-  
+        {
+    	   System.out.println("the exception is "+e.getMessage());
+        }
+	}
 }  
