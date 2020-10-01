@@ -10,7 +10,7 @@ public class ChromeLaunch {
     //public static void main(String[] args) { 
 		@Test
 		public void launchcrome() {	
-      
+        try {
            // System Property for Chrome Driver   
         System.setProperty("webdriver.chrome.driver", "C:\\SHIV\\Backup\\Selenium\\software\\selenium-server-standalone-3.141.59.jar");  
           
@@ -32,5 +32,7 @@ public class ChromeLaunch {
         driver.findElement(By.linkText("Core Java")).click();     
   
     }  
+       catch(Exception e)
+        {System.out.println("the exception is "+e.getMessage());}
   
 }  

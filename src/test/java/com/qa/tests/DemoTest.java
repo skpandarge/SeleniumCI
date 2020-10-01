@@ -43,28 +43,5 @@ public class DemoTest {
 		Assert.assertEquals(2, b/a);
 		
 	}
-	@Test
-		public void launchcrome() {	
-      
-           // System Property for Chrome Driver   
-        System.setProperty("webdriver.chrome.driver", "C:\\SHIV\\Backup\\Selenium\\software\\selenium-server-standalone-3.141.59.jar");  
-          
-             // Instantiate a ChromeDriver class.     
-        WebDriver driver=new ChromeDriver();  
-          
-           // Launch Website 
-		System.out.println("Launching website javatpoint");
-        driver.navigate().to("http://www.javatpoint.com/");  
-          
-         //Maximize the browser  
-          driver.manage().window().maximize();  
-          
-          //Scroll down the webpage by 5000 pixels  
-        JavascriptExecutor js = (JavascriptExecutor)driver;  
-        js.executeScript("scrollBy(0, 5000)");   
-          
-         // Click on the Search button  
-        driver.findElement(By.linkText("Core Java")).click();     
-  
-    }  
+	  
 }
