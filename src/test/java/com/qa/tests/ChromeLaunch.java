@@ -5,8 +5,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
   
 public class ChromeLaunch {  
-	@Test
-    public static void main(String[] args) {  
+	
+    //public static void main(String[] args) { 
+		@Test
+		public void launchcrome() {	
       
            // System Property for Chrome Driver   
         System.setProperty("webdriver.chrome.driver", "C:\\SHIV\\Backup\\Selenium\\software\\chromedriver_win32\\chromedriver.exe");  
