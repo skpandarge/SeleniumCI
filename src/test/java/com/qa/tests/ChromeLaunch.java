@@ -15,7 +15,7 @@ public class ChromeLaunch {
           
              // Instantiate a ChromeDriver class.     
         WebDriver driver=new ChromeDriver();  
-          
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
            // Launch Website 
 		System.out.println("Launching website javatpoint");
         driver.navigate().to("http://www.javatpoint.com/");  
