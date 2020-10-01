@@ -20,7 +20,8 @@ public class ChromeLaunch {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
            // Launch Website 
 		System.out.println("Launching website javatpoint");
-        driver.navigate().to("http://www.javatpoint.com/");  
+        driver.navigate().to("http://www.javatpoint.com/"); 
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
           
          //Maximize the browser  
           driver.manage().window().maximize();  
@@ -31,7 +32,7 @@ public class ChromeLaunch {
           
          // Click on the Search button  
         driver.findElement(By.linkText("Core Java")).click();     
-  
+        System.out.println("User clicked in the text box");
         }  
 	
        catch(Exception e)
