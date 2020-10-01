@@ -47,7 +47,7 @@ public class DemoTest {
 		public void launchcrome() {	
       
            // System Property for Chrome Driver   
-        System.setProperty("webdriver.chrome.driver", "C:\\SHIV\\Backup\\Selenium\\software\\chromedriver_win32\\chromedriver.exe");  
+        System.setProperty("webdriver.chrome.driver", "C:\\SHIV\\Backup\\Selenium\\software\\selenium-server-standalone-3.141.59.jar");  
           
              // Instantiate a ChromeDriver class.     
         WebDriver driver=new ChromeDriver();  
