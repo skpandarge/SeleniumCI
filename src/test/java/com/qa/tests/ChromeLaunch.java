@@ -15,7 +15,7 @@ public class ChromeLaunch {
         WebDriver driver=new ChromeDriver();  
           
            // Launch Website 
-		system.out.println("Launching website");
+		System.out.println("Launching website javatpoint");
         driver.navigate().to("http://www.javatpoint.com/");  
           
          //Maximize the browser  
